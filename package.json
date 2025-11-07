@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "vue": "^3.5.22",
-    "vue-protein-network-visualizer": "^1.0.0"
+    "vue-protein-network-visualizer": "^1.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",

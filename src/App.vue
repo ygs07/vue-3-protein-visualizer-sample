@@ -266,14 +266,14 @@ onMounted(() => {
 /* Base styles */
 .app-container {
   min-height: 100vh;
-
+  color: #1f2937;
   padding: 16px;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Mobile First - Header */
 .app-header {
-  color: white;
+  color: #1f2937;
   margin-bottom: 32px;
 }
 
@@ -288,9 +288,7 @@ onMounted(() => {
   font-size: 1.75rem;
   font-weight: 700;
   margin: 0 0 8px 0;
-
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
   line-height: 1.2;
 }
@@ -299,6 +297,7 @@ onMounted(() => {
   font-size: 0.95rem;
   opacity: 0.9;
   margin: 0;
+  color: #000;
   line-height: 1.4;
 }
 
@@ -312,7 +311,7 @@ onMounted(() => {
   gap: 8px;
   padding: 12px 20px;
   background: rgba(255, 255, 255, 0.1);
-  color: white;
+  color: black;
   text-decoration: none;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -555,14 +554,14 @@ onMounted(() => {
 /* Footer */
 .app-footer {
   text-align: center;
-  color: white;
+
   margin-top: 32px;
   opacity: 0.8;
   font-size: 0.9rem;
 }
 
 .app-footer a {
-  color: white;
+  color: rgb(35, 208, 12);
   text-decoration: none;
   font-weight: 500;
 }
